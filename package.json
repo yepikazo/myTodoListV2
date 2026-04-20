@@ -1,0 +1,19 @@
+{
+  "name": "mytodolist2",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/jsonwebtoken": "^9.0.10"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@hono/oauth-providers": "^0.8.5",
+    "hono": "^4.12.14",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.22.1"
+  }
+}
